@@ -80,10 +80,7 @@ def flight_agent(state: TravelState):
         "llm_calls": state.get("llm_calls", 0) + 1
     }
 
-
-
 # Hote Agent
-
 
 def hotel_agent(state: TravelState):
     query = f"Best hotels for {state['user_query']}"

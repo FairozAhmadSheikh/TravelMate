@@ -13,7 +13,7 @@ from backend import run_travel_agent
 BASE_DIR = Path(__file__).resolve().parent
 
 app = FastAPI(
-    title="TripMate AI",
+    title="TravelMate AI",
     description="LangGraph Multi-Agent Travel Planner",
     version="1.0.0"
 )
