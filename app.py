@@ -45,6 +45,10 @@ async def home(request: Request):
         name="index.html",
         context={}
     )
+    
+@app.get("/health")
+def home(request: Request):
+    return {"Health":"Ok"}
 
 
 @app.post("/api/travel")
